@@ -48,18 +48,18 @@ Portafolio-Codificación de Páginas Web/
 
 ### Unidad 1 · Implementación de control de versiones
 
-| Sesión | Tema         | Qué aprendí                            |      Trabajo      |     Captura      |
-| :----: | :----------- | :------------------------------------- | :---------------: | :--------------: |
-|  S01   | Git y GitHub | _(escribir aquí con palabras propias)_ | [ver](unidad-01/) | [ver](recursos/) |
+| Sesión | Tema         | Qué aprendí                            |      Trabajo      |     Captura             |
+| :----: | :----------- | :------------------------------------- | :---------------: | :---------------------: |
+|  S01   | Git y GitHub | Introduccion y uso de git y github     | [ver](unidad-01/) | [ver](recursos/S01.png) |
 
 <details>
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
 | Sesión | Tema                           | Qué aprendí                                          |      Trabajo      |     Captura      |
 | :----: | :----------------------------- | :--------------------------------------------------- | :---------------: | :--------------: |
-|  S02   | Git colaborativo, la web y XML | Aprendi sobre comandos git para trabajo colaborativo | [ver](unidad-02/) | [ver](recursos/evidencia_faviconType.png) |
-|  S03   | Estructura del documento HTML5 |                                                      | [ver](unidad-02/) | [ver](recursos/) |
-|  S04   | Texto, enlaces y anclas        |                                                      | [ver](unidad-02/) | [ver](recursos/) |
+|  S02   | Git colaborativo, la web y XML | Configuracion y coordinacion en equipo               | [ver](unidad-02/) | [ver](recursos/S02.png) |
+|  S03   | Estructura del documento HTML5 | Estructura principal de html y etiquetas             | [ver](unidad-02/) | [ver](recursos/S03.png) |
+|  S04   | Texto, enlaces y anclas        | Etiquta meta e implementacion de icono en pestaña    | [ver](unidad-02/) | [ver](recursos/S04.png) |
 |  S05   | Listas y tablas                |                                                      | [ver](unidad-02/) | [ver](recursos/) |
 |  S06   | Formularios y semántica        |                                                      | [ver](unidad-02/) | [ver](recursos/) |
 |  S07   | Multimedia                     |                                                      | [ver](unidad-02/) | [ver](recursos/) |
