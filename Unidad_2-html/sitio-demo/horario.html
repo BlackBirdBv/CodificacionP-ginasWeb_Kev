@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario | sitio demo</title>
+</head>
+<body>
+    <!-- Lista Desordenada -->
+    <h2>Materiales de curso</h2>
+
+    <!-- Emmet ul>li*3 -->
+    <ul type="square">
+        <!-- type de los ul : square, circle, disc -->
+        <li>Visual Studio Code</li>
+        <li>Cuenta de GitHub</li>
+        <li>Cuaderno de bitácora</li>
+        <li>Computadpra con conexion a internet</li>
+    </ul>
+    
+    <hr><br>
+
+    <!-- Lista Oredenada  -->
+    <h2>Como entregar una practica</h2>
+
+    <!-- ol>li*8 -->
+    <ol start="5">
+        <li>Traer los cambios con git pull</li>
+        <li>Crear la rama de la practica con git switch -c "Nombre-de-la-rama"</li>
+        <li>Trabajar y hacer commits atómicios</li>
+        <li>Subir la rama con git push </li>
+        <li>Abrir un pull request en GitHub</li>
+        <li>Revisar u fusionar el pull request</li>
+        <li>Volvr a la rama principal (main)</li>
+        <li>Eliminar la rama de la practica con git branch -d "Nombre-de-la-rama"</li>
+    </ol>
+
+    <br><hr>
+
+    <!-- Algunos atributos probados en vivo -->
+    <!-- <ol type="A"></ol> -->
+    <!-- <ol type="a"></ol> -->
+    <!-- <ol type="I"></ol> -->
+    <!-- <ol start="3"></ol> -->
+
+    <!-- Listas descriptivas:pares de terminos y descripcion -->
+    <h2>Glosario Git: Con lista descriptivas</h2>
+    <!-- Emmet dl>(dt+dd)*3 -->
+    <dl>
+        <dt>Commit</dt>
+        <dd>Instantanea premanete del proyecto en momento dado</dd>
+        <dt>Rama</dt>
+        <dd>Linea de trabajo paralela que no afecta al main</dd>
+        <dt>Pull</dt>
+        <dd>Solicitud de revision para incorporar una rama</dd>
+    </dl>
+    <hr><br>
+
+    <!-- Listas anidada. usadas en menus y submenus -->
+    <h2>Temario de la unidad: con lista anidada</h2>
+    <!-- Emmet: ul>li>ul>li*2 -->
+     <ul>
+        <li>Estuctura de un documento
+            <ul>
+                <li>DOCTYPE Y HTML</li>
+                <li>head y metadatos </li>
+            </ul>  
+        </li>
+        <li>Contenido 
+            <ul>
+                <li>Textos y enlaces</li>
+                <li>Listas y tablas</li>
+            </ul>  
+        </li>
+     </ul>
+
+</body>
+</html>
