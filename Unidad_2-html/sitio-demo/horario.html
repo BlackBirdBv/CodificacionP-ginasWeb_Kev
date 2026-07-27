@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Horario | sitio demo</title>
+
+    <meta name="description" content="Sitio web para el curso de codificacion de paginas web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, codificacion de paginas web">
+    <meta name="author" content="Kev_Cardenas">
+
 </head>
 <body>
     <!-- Lista Desordenada -->
@@ -74,5 +80,35 @@
         </li>
      </ul>
 
+     <hr><br>
+     <!-- ESQUELETO DE LA TABLA -->
+    <h2>Horario semanal</h2>
+    <table border="2">
+        <caption>Horario de clases del programa</caption>
+        <thead>
+            <tr>
+                <th scope="col">Dia</th>
+                <th scope="col">Modalidad</th>
+                <th scope="col">Horario</th>
+                <th scope="col">Contenido1</th>
+            </tr>
+        </thead>
+        <!-- tbody: cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Presencial</td>
+                <td>1:30pm a 5:30pm</td>
+                <td>Listas y tablas</td>
+            </tr>
+        </tbody>
+        <!-- El pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="4" , align="center">Total semanal 20 horas</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Emmet table>caption+thead>tr>th*4^^tbody>tr>rd*4^^tfoot>tr>td -->
 </body>
 </html>
