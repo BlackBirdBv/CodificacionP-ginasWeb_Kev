@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horario | sitio demo</title>
+
+    <meta name="description" content="Sitio web para el curso de codificacion de paginas web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, codificacion de paginas web">
+    <meta name="author" content="Kev_Cardenas">
+
+</head>
+<body>
+    <!-- Lista Desordenada -->
+    <h2>Materiales de curso</h2>
+
+    <!-- Emmet ul>li*3 -->
+    <ul type="square">
+        <!-- type de los ul : square, circle, disc -->
+        <li>Visual Studio Code</li>
+        <li>Cuenta de GitHub</li>
+        <li>Cuaderno de bitácora</li>
+        <li>Computadpra con conexion a internet</li>
+    </ul>
+    
+    <hr><br>
+
+    <!-- Lista Oredenada  -->
+    <h2>Como entregar una practica</h2>
+
+    <!-- ol>li*8 -->
+    <ol start="5">
+        <li>Traer los cambios con git pull</li>
+        <li>Crear la rama de la practica con git switch -c "Nombre-de-la-rama"</li>
+        <li>Trabajar y hacer commits atómicios</li>
+        <li>Subir la rama con git push </li>
+        <li>Abrir un pull request en GitHub</li>
+        <li>Revisar u fusionar el pull request</li>
+        <li>Volvr a la rama principal (main)</li>
+        <li>Eliminar la rama de la practica con git branch -d "Nombre-de-la-rama"</li>
+    </ol>
+
+    <br><hr>
+
+    <!-- Algunos atributos probados en vivo -->
+    <!-- <ol type="A"></ol> -->
+    <!-- <ol type="a"></ol> -->
+    <!-- <ol type="I"></ol> -->
+    <!-- <ol start="3"></ol> -->
+
+    <!-- Listas descriptivas:pares de terminos y descripcion -->
+    <h2>Glosario Git: Con lista descriptivas</h2>
+    <!-- Emmet dl>(dt+dd)*3 -->
+    <dl>
+        <dt>Commit</dt>
+        <dd>Instantanea premanete del proyecto en momento dado</dd>
+        <dt>Rama</dt>
+        <dd>Linea de trabajo paralela que no afecta al main</dd>
+        <dt>Pull</dt>
+        <dd>Solicitud de revision para incorporar una rama</dd>
+    </dl>
+    <hr><br>
+
+    <!-- Listas anidada. usadas en menus y submenus -->
+    <h2>Temario de la unidad: con lista anidada</h2>
+    <!-- Emmet: ul>li>ul>li*2 -->
+     <ul>
+        <li>Estuctura de un documento
+            <ul>
+                <li>DOCTYPE Y HTML</li>
+                <li>head y metadatos </li>
+            </ul>  
+        </li>
+        <li>Contenido 
+            <ul>
+                <li>Textos y enlaces</li>
+                <li>Listas y tablas</li>
+            </ul>  
+        </li>
+     </ul>
+
+     <hr><br>
+     <!-- ESQUELETO DE LA TABLA -->
+    <h2>Horario semanal</h2>
+    <table border="2">
+        <caption>Horario de clases del programa</caption>
+        <thead>
+            <tr>
+                <th scope="col">Dia</th>
+                <th scope="col">Modalidad</th>
+                <th scope="col">Horario</th>
+                <th scope="col">Contenido1</th>
+            </tr>
+        </thead>
+        <!-- tbody: cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Presencial</td>
+                <td>1:30pm a 5:30pm</td>
+                <td>Listas y tablas</td>
+            </tr>
+        </tbody>
+        <!-- El pie de la tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="4" , align="center">Total semanal 20 horas</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Emmet table>caption+thead>tr>th*4^^tbody>tr>rd*4^^tfoot>tr>td -->
+</body>
+</html>
