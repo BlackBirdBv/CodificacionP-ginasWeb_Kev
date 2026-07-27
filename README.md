@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 📘 Portafolio de Evidencias
 
@@ -48,30 +48,30 @@ Portafolio-Codificación de Páginas Web/
 
 ### Unidad 1 · Implementación de control de versiones
 
-| Sesión | Tema         | Qué aprendí                            |      Trabajo      |     Captura             |
-| :----: | :----------- | :------------------------------------- | :---------------: | :---------------------: |
-|  S01   | Git y GitHub | Introduccion y uso de git y github     | [ver](Unidad_1-control_de_versiones) | [ver](recursos/S01.png) |
+| Sesión | Tema         | Qué aprendí                            |                  Trabajo                    |     Captura             |
+| :----: | :----------- | :------------------------------------- | :-----------------------------------------: | :---------------------: |
+|  S01   | Git y GitHub | Introduccion y uso de git y github     | [ver](Unidad_1-control_de_versiones)        | [ver](recursos/S01.png) |
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                          |        Trabajo       |         Captura         |
-| :----: | :----------------------------- | :--------------------------------------------------- | :------------------: | :---------------------: |
-|  S02   | Git colaborativo, la web y XML | Configuracion y coordinacion en equipo               | [ver](Unidad_2-html) | [ver](recursos/S02.png) |
-|  S03   | Estructura del documento HTML5 | Estructura principal de html y etiquetas             | [ver](Unidad_2-html) | [ver](recursos/S03.png) |
-|  S04   | Texto, enlaces y anclas        | Etiquta meta e implementacion de icono en pestaña    | [ver](Unidad_2-html) | [ver](recursos/S04.png) |
-|  S05   | Listas y tablas                |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
+| Sesión | Tema                           | Qué aprendí                                          |                       Trabajo                          |         Captura         |
+| :----: | :----------------------------- | :--------------------------------------------------- | :---------------------------------------------------:  | :---------------------: |
+|  S02   | Git colaborativo, la web y XML | Configuracion y coordinacion en equipo               | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S02.png) |
+|  S03   | Estructura del documento HTML5 | Estructura principal de html y etiquetas             | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S03.png) |
+|  S04   | Texto, enlaces y anclas        | Etiquta meta e implementacion de icono en pestaña    | [ver](Unidad_2-html/sitio-demo/paginas/articulo.html)  | [ver](recursos/S04.png) |
+|  S05   | Listas y tablas                | Estructura y funcionamiento de listas y tabalas      | [ver](Unidad_2-html/sitio-demo/horario.html)           | [ver](recursos/S05.png) |
 |  S06   | Formularios y semántica        |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
 |  S07   | Multimedia                     |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
 |  S08   | SVG y repaso                   |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
-| Sesión | Tema                       | Qué aprendí |      Trabajo      |     Captura      |
-| :----: | :------------------------- | :---------- | :---------------: | :--------------: |
+| Sesión | Tema                       | Qué aprendí |       Trabajo       |      Captura     |
+| :----: | :------------------------- | :---------- | :-----------------: | :--------------: |
 |  S11   | Introducción a CSS         |             | [ver](Unidad_3-css) | [ver](recursos/) |
 |  S12   | Selectores y pseudo-clases |             | [ver](Unidad_3-css) | [ver](recursos/) |
 |  S13   | Tipografía y color         |             | [ver](Unidad_3-css) | [ver](recursos/) |
@@ -85,20 +85,20 @@ Portafolio-Codificación de Páginas Web/
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 4 · Páginas web responsivas</b> (sesiones 23 a 28)</summary>
 
-| Sesión | Tema                            | Qué aprendí |      Trabajo      |     Captura      |
-| :----: | :------------------------------ | :---------- | :---------------: | :--------------: |
-|  S23   | Viewport y anchos fluidos       |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
-|  S24   | Media queries y mobile-first    |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
-|  S25   | Menú responsivo e impresión     |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
-|  S26   | Imágenes y video adaptativos    |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
-|  S27   | Patrones de diseño adaptativo I |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
-|  S28   | Patrones II y repaso            |             | [ver](Unidad_4-responsive) | [ver](recursos/) |
+| Sesión | Tema                            | Qué aprendí |           Trabajo           |     Captura      |
+| :----: | :------------------------------ | :---------- | :-------------------------: | :--------------: |
+|  S23   | Viewport y anchos fluidos       |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
+|  S24   | Media queries y mobile-first    |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
+|  S25   | Menú responsivo e impresión     |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
+|  S26   | Imágenes y video adaptativos    |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
+|  S27   | Patrones de diseño adaptativo I |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
+|  S28   | Patrones II y repaso            |             | [ver](Unidad_4-responsive)  | [ver](recursos/) |
 Unidad_4-responsive>
 
-<details>
+<details markdown="1">
 <summary><b>Unidad 5 · Frameworks y librerías</b> (sesiones 31 a 36)</summary>
 
 | Sesión | Tema                          | Qué aprendí |      Trabajo      |     Captura      |
@@ -123,7 +123,7 @@ imágenes representativas de todo el módulo.)_
   <img src="recursos/ejemplo-escritorio.png" width="600" alt="Sitio personal en vista de escritorio">
 </p>
 
-<div align="center"><i>El sitio personal al cierre de la Unidad 3.</i></div>
+<div align="center" markdown="1"><i>El sitio personal al cierre de la Unidad 3.</i></div>
 
 ### El mismo sitio en dos anchos
 
@@ -167,7 +167,7 @@ _(Escribir al cerrar el módulo. Tres preguntas para orientarla:)_
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **Nombre Completo** · correo@ejemplo.com
 
