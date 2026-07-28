@@ -50,7 +50,7 @@ Portafolio-Codificación de Páginas Web/
 
 | Sesión | Tema         | Qué aprendí                            |                  Trabajo                    |     Captura             |
 | :----: | :----------- | :------------------------------------- | :-----------------------------------------: | :---------------------: |
-|  S01   | Git y GitHub | Introduccion y uso de git y github     | [ver](Unidad_1-control_de_versiones)        | [ver](recursos/S01.png) |
+|  S01   | Git y GitHub | Introduccion y uso de git y github     | [ver](/Unidad_1-control_de_versiones/)      | [ver](recursos/S01.png) |
 
 <details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
