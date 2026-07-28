@@ -50,7 +50,7 @@
             <legend>Detalles de matricula</legend>
             <p>
                 <label for="telefono">Teléfono</label><br>
-                <input type="tel" id="telefono" name="telefono"><br><br>
+                <input type="tel" id="telefono" name="telefono" title="Ingrese un numero de telefono" pattern="[0-9]{8}" required><br><br>
             </p>
 
             <p>
@@ -60,7 +60,7 @@
 
             <p>
                 <label for="edad">Edad</label><br>
-                <input type="number" id="edad" name="edad"><br><br>
+                <input type="number" id="edad" name="edad" min="15" max="120" step="1"><br><br>
             </p>
         </fieldset>
 
@@ -84,7 +84,7 @@
 
             <p>
                 <label for="comentarios">Comentarios</label><br>
-                <textarea name="comentarios" id="comentarios" rows="4" cols="50"></textarea><br><br>
+                <textarea name="comentarios" id="comentarios" rows="4" cols="50" maxlength="200"></textarea><br><br>
             </p>
         </fieldset>
     </main>
