@@ -55,15 +55,15 @@ Portafolio-Codificación de Páginas Web/
 <details markdown="1">
 <summary><b>Unidad 2 · Etiquetas y atributos HTML</b> (sesiones 2 a 8)</summary>
 
-| Sesión | Tema                           | Qué aprendí                                          |                       Trabajo                          |         Captura         |
-| :----: | :----------------------------- | :--------------------------------------------------- | :---------------------------------------------------:  | :---------------------: |
-|  S02   | Git colaborativo, la web y XML | Configuracion y coordinacion en equipo               | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S02.png) |
-|  S03   | Estructura del documento HTML5 | Estructura principal de html y etiquetas             | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S03.png) |
-|  S04   | Texto, enlaces y anclas        | Etiquta meta e implementacion de icono en pestaña    | [ver](Unidad_2-html/sitio-demo/paginas/articulo.html)  | [ver](recursos/S04.png) |
-|  S05   | Listas y tablas                | Estructura y funcionamiento de listas y tabalas      | [ver](Unidad_2-html/sitio-demo/horario.html)           | [ver](recursos/S05.png) |
-|  S06   | Formularios y semántica        |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
-|  S07   | Multimedia                     |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
-|  S08   | SVG y repaso                   |                                                      | [ver](Unidad_2-html) | [ver](recursos/) |
+| Sesión | Tema                           | Qué aprendí                                             |                       Trabajo                          |         Captura         |
+| :----: | :----------------------------- | :---------------------------------------------------    | :---------------------------------------------------:  | :---------------------: |
+|  S02   | Git colaborativo, la web y XML | Configuracion y coordinacion en equipo                  | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S02.png) |
+|  S03   | Estructura del documento HTML5 | Estructura principal de html y etiquetas                | [ver](Unidad_2-html/sitio-demo/index.html)             | [ver](recursos/S03.png) |
+|  S04   | Texto, enlaces y anclas        | Etiquta meta e implementacion de icono en pestaña       | [ver](Unidad_2-html/sitio-demo/paginas/articulo.html)  | [ver](recursos/S04.png) |
+|  S05   | Listas y tablas                | Estructura y funcionamiento de listas y tabalas         | [ver](Unidad_2-html/sitio-demo/horario.html)           | [ver](recursos/S05.png) |
+|  S06   | Formularios y semántica        |  Estructura y funcionamiento de Formularios y semnatica | [ver](Unidad_2-html/sitio-demo/registro.html)          | [ver](recursos/S06.png) |
+|  S07   | Multimedia                     |                                                         | [ver](Unidad_2-html) | [ver](recursos/) |
+|  S08   | SVG y repaso                   |                                                         | [ver](Unidad_2-html) | [ver](recursos/) |
 
 </details>
 
