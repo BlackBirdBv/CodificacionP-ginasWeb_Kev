@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario | Registro</title>
+
+    <meta name="description" content="Sitio web para el curso de codificacion de paginas web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, codificacion de paginas web">
+    <meta name="author" content="Kev_Cardenas">
+
+    <link rel="icon" type="image/png" href="recursos/homero-png.png">
+</head>
+<body>
+    <header>
+        <h1>Codificacion de paginas web</h1>
+        <p>Sitio de demostracion del modulo</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginas/articulo.html">Artculos</a></li>
+                <li><a href="horario.html">Horario</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <fielset>
+        <h2>Formulario de matricula</h2>
+        <form action="#">
+            <!-- FORM: contenedor del formulario action: es donde se envian los datos method: es el metodo de envio. post: envio de datos por el ccuerpo de la solicitud -->
+            <fieldset>
+                <legend>Informacion personal</legend>
+                <p>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                </p>
+
+                <p>
+                    <label for="correo">Correo</label><br>
+                    <input type="email" id="correo" name="correo" required><br><br>
+                </p>
+                <button type="submit">Enviar matricula</button>
+            </fieldset>
+        </form>
+
+        <fieldset>
+            <legend>Detalles de matricula</legend>
+            <p>
+                <label for="telefono">Teléfono</label><br>
+                <input type="tel" id="telefono" name="telefono" title="Ingrese un numero de telefono" pattern="[0-9]{8}" required><br><br>
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de Inicio</label><br>
+                <input type="date" id="fecha" name="fecha"><br><br>
+            </p>
+
+            <p>
+                <label for="edad">Edad</label><br>
+                <input type="number" id="edad" name="edad" min="15" max="120" step="1"><br><br>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Modalidad</legend>
+            <input type="radio" id="presencial" name="modalidad" value="presencial">
+            <label for="presencial">Presencial</label><br>
+            <input type="radio" id="virtual" name="modalidad" value="virtual">
+            <label for="virtual">Virtual</label><br>
+            <input type="radio" id="mixta" name="modalidad" value="mixta">
+            <label for="mixta">Mixta</label><br>
+
+            <P>
+                <label for="horario">Horario preferido</label><br>
+                <select name="horario" name="horario">
+                    <option value="mañana">Mañana</option>
+                    <option value="tarde">tarde</option>
+                    <option value="noche">Noche</option>
+                </select>
+            </P>
+
+            <p>
+                <label for="comentarios">Comentarios</label><br>
+                <textarea name="comentarios" id="comentarios" rows="4" cols="50" maxlength="200"></textarea><br><br>
+            </p>
+        </fieldset>
+    </main>
+
+    <footer>
+        <!-- Creditos, contacto, derechos -->
+        <p>© 2026 INA. Programa Desarrollo de Paginas Web Todos los derechos reservados </p>
+    </footer>
+</body>
+</html>
