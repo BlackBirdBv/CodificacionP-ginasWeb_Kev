@@ -10,26 +10,74 @@
 
     <title>Galeria | CafeTico</title>
 
-    <link rel="icon" href="resources/cafe.png">
+    <link rel="icon" href="resources/Logo/cafe.png">
 </head>
 <body>
     <!-- CABECERA -->
     <header>
         <nav style="display: flex; justify-content: space-between;">
             <div>
-                <img src="resources/cafe.png" alt="Granos de cafe" width="50">
+                <img src="resources/Logo/cafe.png" alt="Granos de cafe" width="50">
             </div>
 
             <ul style="display: flex; list-style: none; ">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="galeria.html">&nbsp; Galeria</a></li>
                 <li><a href="ubicacion.html">&nbsp; Ubicados</a></li>
-                <li><a href="horario.html">&nbsp; Horario</a></li>
+                <li><a href="BuscaEmpleo.html">&nbsp; Solicitud de Empleo</a></li>
             </ul>
         </nav>
     </header>
 
-    
+    <main id="contenido">
+        <article>
+            <h1>Conocenos</h1>
+
+            <section id="video">
+                <h2>video local</h2>
+                <video controls>
+                    <source src="resources/videos/cafeteria.mp4" type="video/mp4">
+                    <source src="resources/videos/cafeteria.webm" type="video/webm" srclang="es" label="español" default>
+                    <p>Tu navegador no soporta el elemneto de audio</p>
+                    <a href="resources/videos/cafeteria.mp4">Descargar el archivo</a>
+                </video>
+            </section>
+        </article>
+
+        <article>
+            <h2>Imagenes</h2>
+
+            <section style="display: flex;">
+                <figure>
+                    <picture>
+                        <source src="resources/img/local.png" type="image/png">
+                        <source src="" type="">
+                        <img src="resources/img/local.png" alt="mesas y sillas y facilidades del local" height="300">
+                    </picture>
+                    <figcaption style="font-size: 30px;">Local</figcaption>
+                </figure>
+                    
+                <figure>
+                    <picture>
+                        <source src="resources/img/menu.png" type="image/png">
+                        <source src="" type="">
+                        <img src="resources/img/menu.png" alt="Hoja con el menu del local" width="" height="300">
+                        <figcaption style="font-size: 30px;">Menu</figcaption>
+                    </picture>
+                </figure>
+                
+                <figure>
+                    <picture>
+                        <source src="resources/img/vitrina.png" type="image/png">
+                        <source src="" type="">
+                        <img src="resources/img/vitrina.png" alt="Camara de fio y de calor con productos de reposteria" height="300">
+                        <figcaption style="font-size: 30px;">Productos</figcaption>
+                    </picture>
+                </figure>
+                    
+            </section>
+        </article>
+    </main>
     
     <footer>
         <h2>Contacto</h2>
