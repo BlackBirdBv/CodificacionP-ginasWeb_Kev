@@ -93,12 +93,12 @@ Portafolio-Codificación de Páginas Web/
 Proyecto propio construido de forma autónoma.
 **Tema del sitio:** _(Pagina web de una cafeteria)_
 
-|      Página      |                                Qué contiene                                  | Sesiones aplicadas |                         Ver                         |              Validación                            |
-|:---------------- |:-----------------------------------------------------------------------------|:------------------:|:---------------------------------------------------:|:------------------------------------------------------------------------------:|
-| `index.html`     | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06    | [ver](unidad-02-html/sitio-personal/index.html)     | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-index.png)    |
-| `listas.html`    | Las tres listas, lista anidada y tabla con celdas combinadas                 | S05                | [ver](unidad-02-html/sitio-personal/ubicacion.html) | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-lista.png)    |
-| `contacto.html`  | Formulario con ocho campos y validación de HTML                              | S06                | [ver](unidad-02-html/sitio-personal/contacto.html)  | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-contacto.png) |
-| `galeria.html`   | Imágenes, audio, video con subtítulos y gráficas SVG                         | S07 · S08          | [ver](unidad-02-html/sitio-personal/galeria.html)   | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-galeria.png)  |
+|      Página      |                                Qué contiene                                  | Sesiones aplicadas |                         Ver                        |              Validación                            |
+|:---------------- |:-----------------------------------------------------------------------------|:------------------:|:--------------------------------------------------:|:------------------------------------------------------------------------------:|
+| `index.html`     | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06    | [ver](Unidad_2-html/sitio-personal/index.html )    | [ver](Unidad_2-html/sitio-personal/resources/Validacion/sp-validacion-index.png)     |
+| `listas.html`    | Las tres listas, lista anidada y tabla con celdas combinadas                 | S05                | [ver](Unidad_2-html/sitio-personal/index.html)     | [ver](Unidad_2-html/sitio-personal/resources/Validacion/sp-validacion-listas.png)    |
+| `contacto.html`  | Formulario con ocho campos y validación de HTML                              | S06                | [ver](Unidad_2-html/sitio-personal/contacto.html)  | [ver](Unidad_2-html/sitio-personal/resources/Validacion/sp-validacion-contacto.png) |
+| `galeria.html`   | Imágenes, audio, video con subtítulos y gráficas SVG                         | S07 · S08          | [ver](Unidad_2-html/sitio-personal/galeria.html)   | [ver](Unidad_2-html/sitio-personal/resources/Validacion/sp-validacion-galeria.png)  |
 
 **Decisiones que tomé**
 
@@ -112,7 +112,7 @@ Proyecto propio construido de forma autónoma.
 **Cómo se ve**
 
 <p align="center">
-  <img src="unidad-02-html/sitio-personal/resources/Validacion/sp-vista-index" width="600" alt="Portada del sitio personal">
+  <img src="Unidad_2-html/sitio-personal/resources/Validacion/sp-vista-index.png" width="600" alt="Portada del sitio personal">
 </p>
 
 <div align="center" markdown="1">
@@ -122,7 +122,7 @@ Proyecto propio construido de forma autónoma.
 </div>
 
 **Comprobado en dos navegadores:**
-[Brave](unidad-02-html/sitio-personal/resources/Validacion/sp-navegador-brave.png) · [Firefox](unidad-02-html/sitio-personal/resources/Validacion/sp-navegador-opera.png)
+[Brave](Unidad_2-html/sitio-personal/resources/Validacion/sp-navegador-brave.png) · [OperaGX](Unidad_2-html/sitio-personal/resources/Validacion/sp-navegador-opera.png)
 
 
 <details markdown="1">
