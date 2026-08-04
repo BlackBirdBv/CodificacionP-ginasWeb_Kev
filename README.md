@@ -122,7 +122,7 @@ Proyecto propio construido de forma autónoma.
 </div>
 
 **Comprobado en dos navegadores:**
-[Brave](Unidad_2-html/sitio-personal/resources/Validacion/sp-navegador-brave.png) · [OperaGX](Unidad_2-html/sitio-personal/resources/Validacion/sp-navegador-opera.png)
+[Brave](Unidad_2-html/sitio-personal/resources/Validacion/sp-navegador-brave.png) · [OperaGX](Unidad_2-html/sitio-personal/resources/Validacion/)
 
 
 <details markdown="1">
