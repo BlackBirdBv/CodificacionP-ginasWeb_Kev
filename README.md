@@ -91,28 +91,28 @@ Portafolio-Codificación de Páginas Web/
 ### El sitio personal
 
 Proyecto propio construido de forma autónoma.
-**Tema del sitio:** _(escribir aquí el tema elegido)_
+**Tema del sitio:** _(Pagina web de una cafeteria)_
 
-| Página | Qué contiene | Sesiones aplicadas | Ver | Validación |
-|:-------|:-------------|:------------------:|:---:|:----------:|
-| `index.html` | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06 | [ver](unidad-02-html/sitio-personal/index.html) | [ver](recursos/sp-validacion-index.png) |
-| `listas.html` | Las tres listas, lista anidada y tabla con celdas combinadas | S05 | [ver](unidad-02-html/sitio-personal/listas.html) | [ver](recursos/sp-validacion-listas.png) |
-| `contacto.html` | Formulario con ocho campos y validación de HTML | S06 | [ver](unidad-02-html/sitio-personal/contacto.html) | [ver](recursos/sp-validacion-contacto.png) |
-| `galeria.html` | Imágenes, audio, video con subtítulos y gráficas SVG | S07 · S08 | [ver](unidad-02-html/sitio-personal/galeria.html) | [ver](recursos/sp-validacion-galeria.png) |
+|      Página      |                                Qué contiene                                  | Sesiones aplicadas |                         Ver                         |              Validación                            |
+|:---------------- |:-----------------------------------------------------------------------------|:------------------:|:---------------------------------------------------:|:------------------------------------------------------------------------------:|
+| `index.html`     | Estructura semántica, metadatos, texto jerarquizado, citas, enlaces y anclas | S03 · S04 · S06    | [ver](unidad-02-html/sitio-personal/index.html)     | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-index.png)    |
+| `listas.html`    | Las tres listas, lista anidada y tabla con celdas combinadas                 | S05                | [ver](unidad-02-html/sitio-personal/ubicacion.html) | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-lista.png)    |
+| `contacto.html`  | Formulario con ocho campos y validación de HTML                              | S06                | [ver](unidad-02-html/sitio-personal/contacto.html)  | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-contacto.png) |
+| `galeria.html`   | Imágenes, audio, video con subtítulos y gráficas SVG                         | S07 · S08          | [ver](unidad-02-html/sitio-personal/galeria.html)   | [ver](unidad-02-html/sitio-personal/resources/Validacion/sp-validacion-galeria.png)  |
 
 **Decisiones que tomé**
 
-| Decisión | Qué elegí | Por qué |
-|:---------|:----------|:--------|
-| Tema del sitio | | |
-| Atributo de la lista ordenada | | |
-| Formatos de imagen usados | | |
-| Formas del gráfico SVG | | |
+|            Decisión            |                      Qué elegí                      |             Por qué             |
+|:-------------------------------|:----------------------------------------------------|:--------------------------------|
+| Tema del sitio                 | Pagina Web de una cafeteria. CafeTico               | por me gusta el cafe            |
+| Atributo de la lista ordenada  | type="1"                                            | por estetica y orden            |
+| Formatos de imagen usados      | png y webp                                          | para darle opciones al navegador|
+| Formas del gráfico SVG         | elipse y una linea dando forma a una grano de cafe  | para que sea el logo            |
 
 **Cómo se ve**
 
 <p align="center">
-  <img src="recursos/sp-vista-index.png" width="600" alt="Portada del sitio personal">
+  <img src="unidad-02-html/sitio-personal/resources/Validacion/sp-vista-index" width="600" alt="Portada del sitio personal">
 </p>
 
 <div align="center" markdown="1">
@@ -122,7 +122,7 @@ Proyecto propio construido de forma autónoma.
 </div>
 
 **Comprobado en dos navegadores:**
-[Chrome](recursos/sp-navegador-chrome.png) · [Firefox](recursos/sp-navegador-firefox.png)
+[Brave](unidad-02-html/sitio-personal/resources/Validacion/sp-navegador-brave.png) · [Firefox](unidad-02-html/sitio-personal/resources/Validacion/sp-navegador-opera.png)
 
 
 <details markdown="1">

@@ -16,9 +16,12 @@
     <!-- CABECERA -->
     <header>
         <nav style="display: flex; justify-content: space-between;">
-            <div>
-                <img src="resources/Logo/cafe.png" alt="Granos de cafe" width="50">
-            </div>
+            <svg xmlns="http://w3.org" viewBox="0 0 100 100" width="75" height="75">
+                <!-- Cuerpo principal del grano de café -->
+                <ellipse cx="50" cy="50" rx="35" ry="25" fill="#6F4E37" transform="rotate(-25 50 50)" />
+                <!-- Línea o corte central con efecto de profundidad -->
+                <path d="M 32 38 Q 50 55 68 62" stroke="#4A3319" stroke-width="4" fill="none" stroke-linecap="round" />
+            </svg>
 
             <ul style="display: flex; list-style: none; ">
                 <li><a href="index.html">Inicio</a></li>
@@ -33,49 +36,47 @@
         <article>
             <h1>Conocenos</h1>
 
-            <section id="video">
-                <h2>video local</h2>
-                <video controls>
-                    <source src="resources/videos/cafeteria.mp4" type="video/mp4">
-                    <source src="resources/videos/cafeteria.webm" type="video/webm" srclang="es" label="español" default>
-                    <p>Tu navegador no soporta el elemneto de audio</p>
-                    <a href="resources/videos/cafeteria.mp4">Descargar el archivo</a>
-                </video>
-            </section>
+            <h2>video local</h2>
+            <video controls>
+                <source src="resources/videos/cafeteria.mp4" type="video/mp4">
+                <source src="resources/videos/cafeteria.webm" type="video/webm">
+                <p>Tu navegador no soporta el elemneto de audio</p>
+                <a href="resources/videos/cafeteria.mp4">Descargar el archivo</a>
+            </video>
         </article>
 
         <article>
             <h2>Imagenes</h2>
 
-            <section style="display: flex;">
+            <div style="display: flex;">
                 <figure>
                     <picture>
-                        <source src="resources/img/local.png" type="image/png">
-                        <source src="" type="">
-                        <img src="resources/img/local.png" alt="mesas y sillas y facilidades del local" height="300">
+                        <source srcset="resources/img/local.png" type="image/png">
+                        <source srcset="resources/img/local.webp" type="image/webp">
+                        <img srcset="resources/img/local.png" alt="mesas y sillas y facilidades del local" height="300">
                     </picture>
                     <figcaption style="font-size: 30px;">Local</figcaption>
                 </figure>
                     
                 <figure>
                     <picture>
-                        <source src="resources/img/menu.png" type="image/png">
-                        <source src="" type="">
-                        <img src="resources/img/menu.png" alt="Hoja con el menu del local" width="" height="300">
-                        <figcaption style="font-size: 30px;">Menu</figcaption>
+                        <source srcset="resources/img/menu.png" type="image/png">
+                        <source srcset="resources/img/menu.webp" type="image/webp">
+                        <img srcset="resources/img/menu.png" alt="Hoja con el menu del local" height="300">
                     </picture>
+                    <figcaption style="font-size: 30px;">Menu</figcaption>
                 </figure>
                 
                 <figure>
                     <picture>
-                        <source src="resources/img/vitrina.png" type="image/png">
-                        <source src="" type="">
-                        <img src="resources/img/vitrina.png" alt="Camara de fio y de calor con productos de reposteria" height="300">
-                        <figcaption style="font-size: 30px;">Productos</figcaption>
+                        <source srcset="resources/img/vitrina.png" type="image/png">
+                        <source srcset="resources/img/vitrina.webp" type="image/webp">
+                        <img srcset="resources/img/vitrina.png" alt="Camara de fio y de calor con productos de reposteria" height="300">
                     </picture>
+                    <figcaption style="font-size: 30px;">Productos</figcaption>
                 </figure>
                     
-            </section>
+            </div>
         </article>
     </main>
     
