@@ -25,7 +25,7 @@
         <li><a href="articulo.html">Artículo</a></li>
         <li><a href="horario.html">Horario</a></li>
         <li><a href="registro.html">Registro</a></li>
-        <li><a href="insignia.html">Registro</a></li>
+        <li><a href="insignia.html">Insignia</a></li>
       </ul>
     </nav>
   </header>
@@ -47,42 +47,43 @@
           <legend>Datos personales</legend>
 
           <p>
-            <label for="nombre">Nombre completo *</label>
+            <label for="nombre">Nombre completo *</label><br>
             <input type="text" id="nombre" name="nombre"
                    required minlength="3" maxlength="60"
                    placeholder="Ana Rodríguez Mora">
           </p>
-
+          <br>
           <p>
-            <label for="cedula">Número de identificación *</label>
+            <label for="cedula">Número de identificación *</label><br>
             <input type="text" id="cedula" name="cedula"
                    required pattern="[0-9]{9}"
                    title="Nueve dígitos, sin guiones ni espacios"
                    placeholder="112345678">
           </p>
-
+          <br>
           <p>
-            <label for="correo">Correo electrónico *</label>
+            <label for="correo">Correo electrónico *</label><br>
             <input type="email" id="correo" name="correo"
                    required
-                   placeholder="persona@ejemplo.com">
+                   placeholder="persona@ejemplo.com"><br>
             <small>Se usará para confirmar la matrícula.</small>
           </p>
-
+          <br>
           <p>
-            <label for="telefono">Teléfono *</label>
+            <label for="telefono">Teléfono *</label><br>
             <input type="tel" id="telefono" name="telefono"
                    required pattern="[0-9]{8}"
                    title="Ocho dígitos, sin espacios ni guiones"
                    placeholder="88887777">
           </p>
-
+          <br>
           <p>
-            <label for="clave">Contraseña de acceso *</label>
+            <label for="clave">Contraseña de acceso *</label><br>
             <input type="password" id="clave" name="clave"
-                   required minlength="8">
+                   required minlength="8"><br>
             <small>Mínimo ocho caracteres.</small>
           </p>
+          <br>
         </fieldset>
 
         <!--  GRUPO 2: DETALLES DE LA MATRÍCULA  -->
@@ -90,19 +91,19 @@
           <legend>Detalles de la matrícula</legend>
 
           <p>
-            <label for="fecha">Fecha preferida *</label>
+            <label for="fecha">Fecha preferida *</label><br>
             <input type="date" id="fecha" name="fecha" required>
           </p>
-
+          <br>
           <p>
-            <label for="sesiones">Cantidad de sesiones *</label>
+            <label for="sesiones">Cantidad de sesiones *</label><br>
             <input type="number" id="sesiones" name="sesiones"
                    required min="1" max="8" step="1" value="2">
             <small>Entre 1 y 8 sesiones.</small>
           </p>
-
+          <br>
           <p>
-            <label for="unidad">Unidad por reforzar</label>
+            <label for="unidad">Unidad por reforzar</label><br>
             <select id="unidad" name="unidad">
               <option value="">Seleccione una opción</option>
               <option value="1">Unidad 1 &mdash; Control de versiones</option>
