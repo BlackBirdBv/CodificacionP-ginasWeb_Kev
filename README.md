@@ -70,9 +70,9 @@ Portafolio-Codificación de Páginas Web/
 <details markdown="1">
 <summary><b>Unidad 3 · Codificación de hojas de estilo</b> (sesiones 11 a 20)</summary>
 
-| Sesión | Tema                       | Qué aprendí |       Trabajo       |      Captura     |
-| :----: | :------------------------- | :---------- | :-----------------: | :--------------: |
-|  S11   | Introducción a CSS         |             | [ver](Unidad_3-css) | [ver](recursos/) |
+| Sesión | Tema                       |                  Qué aprendí                   |                     Trabajo                    |          Captura        |
+| :----: | :------------------------- | :--------------------------------------------- | :--------------------------------------------: | :---------------------: |
+|  S11   | Introducción a CSS         | introduccion de css (reglas y configuraciones) | [ver](Unidad_3-css/sitio-demo/css/estilos.css) | [ver](recursos/S11.png) |
 |  S12   | Selectores y pseudo-clases |             | [ver](Unidad_3-css) | [ver](recursos/) |
 |  S13   | Tipografía y color         |             | [ver](Unidad_3-css) | [ver](recursos/) |
 |  S14   | Modelo de cajas            |             | [ver](Unidad_3-css) | [ver](recursos/) |
