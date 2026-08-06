@@ -1,4 +1,11 @@
 /*css/estilos.css*/
+/* Reset basico */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: arial, sans-serif;
     color: #454546;
@@ -8,4 +15,4 @@ h1{
     color: #1f4e79;
     font-size: 32px;
     text-align: center;
-}
+}/*esta regla elimina los margenes y el relleno predeterminado de todos los elementos y establece el modelo de caja para incluir el relleno y el borde del ancho y alto del elemento*/
