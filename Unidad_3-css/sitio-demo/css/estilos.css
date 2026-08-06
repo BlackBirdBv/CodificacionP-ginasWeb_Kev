@@ -1,6 +1,11 @@
 /*css/estilos.css*/
 body{
     font-family: arial, sans-serif;
-    color: #0d066e;
+    color: #454546;
+    background-color: #e2e2e21f;
 }/* esta regla define la fuente y color del texto en wl documnto */
-
+h1{
+    color: #1f4e79;
+    font-size: 32px;
+    text-align: center;
+}
