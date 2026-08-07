@@ -5,18 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
 }/*esta regla elimina los margenes y el relleno predeterminado de todos los elementos y establece el modelo de caja para incluir el relleno y el borde del ancho y alto del elemento*/
 body{
     font-family: arial, sans-serif;
-    color: #454546;
+    color: #a8a7a7;
     background-color: #e2e2e21f;
 }/* esta regla define la fuente y color del texto en wl documnto */
 
 /* titulo pricipal */
 h1{
-    color: #003a70;
+    color: #ffffff;
     font-size: 32px;
     text-align: center;
 }
@@ -42,6 +40,89 @@ p{
 
 li{
     margin: 10px; 
+}
+
+/* Aplicar estilos a clases */
+.destacado{
+    color: #fff3cd;
+    padding: 10px;
+}
+
+/* Aplicar estilos a identificadores o IDs */
+
+#inicio{
+    background-color:#3f72a1;
+    padding: 30px;
+}
+
+/* Estilos solo enlaces dentro del nav */
+nav a{
+    /* background-color: #fff; */
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+/* psuedo-clase :hover */
+nav a:hover{
+    color: #f8cbad;
+}
+
+/* Pseudo-class : nth-child: fila cebra en la tabla */
+tbody tr:nth-child(even){
+    background-color: #bd9c9c;
+}
+
+article p:first-letter{
+    font-size: 32px;
+    font-weight: bold;
+    color: #c55a11;
+}
+
+::selection{
+    background-color: #1f4e79;
+    color: white;
+}
+
+/* Aagragarr famila de fuentes traida de goofle fonts */
+body{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* Actividad de comprobacion S12 */
+
+.recordatorio{
+    background-color: #1f4e79;
+    padding: 10px;
+}
+
+#inicio{
+    background-color: #003363;
+}
+
+#inicio nav li{
+    list-style: none;
+}
+
+#inicio nav a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#inicio nav a:hover{
+    color: #92c0db;
+    text-decoration: none;
+}
+
+tbody tr:nth-child(even){
+    background-color: #dff9fd;
+}
+
+article p:first-letter{
+    font-size: 24px;
+    font-weight: bold;
+    color: #686868;
 }
 
 
