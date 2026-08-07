@@ -107,9 +107,13 @@ body{
 #inicio nav a{
     color: #ffffff;
     text-decoration: none;
+    transition: 0.5s;
 }
 
-
+#inicio nav a:hover{
+    color: #92c0db;
+    text-decoration: none;
+}
 
 /* footer{
     background-color: #00203d;
