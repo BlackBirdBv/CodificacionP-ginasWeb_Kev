@@ -54,7 +54,7 @@ li{
 
 #inicio{
     background-color:#3f72a1;
-    padding: 30;
+    padding: 30px;
 }
 
 /* Estilos solo enlaces dentro del nav */
@@ -76,7 +76,7 @@ tbody tr:nth-child(even){
 
 article p:first-letter{
     font-size: 32px;
-    font-weight: blod;
+    font-weight: bold;
     color: #c55a11;
 }
 
@@ -90,3 +90,11 @@ body{
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
+
+/* Actividad de comprobacion S12 */
+
+.recordatorio{
+    background-color: #1f4e79;
+    padding: 10px;
+}
+
