@@ -115,6 +115,11 @@ body{
     text-decoration: none;
 }
 
+tbody tr:nth-child(even){
+    background-color: #dff9fd;
+}
+
+
 /* footer{
     background-color: #00203d;
 }
