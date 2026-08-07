@@ -8,19 +8,19 @@
 }/*esta regla elimina los margenes y el relleno predeterminado de todos los elementos y establece el modelo de caja para incluir el relleno y el borde del ancho y alto del elemento*/
 body{
     font-family: arial, sans-serif;
-    color: #454546;
+    color: #a8a7a7;
     background-color: #e2e2e21f;
 }/* esta regla define la fuente y color del texto en wl documnto */
 
 /* titulo pricipal */
-h1{
+/* h1{
     color: #ffffff;
     font-size: 32px;
     text-align: center;
-}
+} */
 
 /* sub titulos */
-h2{
+/* h2{
     color: #3f72a1;
     font-size: 24px;
     text-align: center;
@@ -40,7 +40,7 @@ p{
 
 li{
     margin: 10px; 
-}
+} */
 
 /* Aplicar estilos a clases */
 .destacado{
@@ -119,27 +119,10 @@ tbody tr:nth-child(even){
     background-color: #dff9fd;
 }
 
-
-/* footer{
-    background-color: #00203d;
+article p:first-letter{
+    font-size: 24px;
+    font-weight: bold;
+    color: #686868;
 }
 
-footer h2{
-    color: #ffffff;
-    padding: 10px 0;
-}
 
-footer address{
-    color: #d3d3d3;
-    padding-left: 30px;
-}
-
-footer address a{
-    color: #d3d3d3;
-    font-weight: 700;
-}
-
-footer p a{
-    color: #d3d3d3;
-    font-weight: 700;
-} */
