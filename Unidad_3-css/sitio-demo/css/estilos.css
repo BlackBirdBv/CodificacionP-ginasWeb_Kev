@@ -44,4 +44,49 @@ li{
     margin: 10px; 
 }
 
+/* Aplicar estilos a clases */
+.destacado{
+    color: #fff3cd;
+    padding: 10px;
+}
 
+/* Aplicar estilos a identificadores o IDs */
+
+#inicio{
+    background-color:#3f72a1;
+    padding: 30;
+}
+
+/* Estilos solo enlaces dentro del nav */
+nav a{
+    background-color: #fff;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+/* psuedo-clase :hover */
+nav a:hover{
+    color: #f8cbad;
+}
+
+/* Pseudo-class : nth-child: fila cebra en la tabla */
+tbody tr:nth-child(even){
+    background-color: #bd9c9c;
+}
+
+article p:first-letter{
+    font-size: 32px;
+    font-weight: blod;
+    color: #c55a11;
+}
+
+::selection{
+    background-color: #1f4e79;
+    color: white;
+}
+
+/* Aagragarr famila de fuentes traida de goofle fonts */
+body{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
